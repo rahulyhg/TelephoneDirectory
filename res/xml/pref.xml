@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+ xmlns:android="http://schemas.android.com/apk/res/android">
+<ListPreference
+ android:entries="@array/sex"
+ android:entryValues="@array/sexReturn"
+ android:key="list"
+ android:summary="сортировка списка по половому признаку"
+ android:title="Фильтр отображения">
+</ListPreference>
+<ListPreference
+ android:entries="@array/color"
+ android:entryValues="@array/colorReturn"
+ android:key="list"
+ android:summary="подсвечивает категорию цветом"
+ android:title="Выделить категорию">
+</ListPreference>
+
+</PreferenceScreen>
